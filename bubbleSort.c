@@ -2,13 +2,14 @@
 #include "swap.h"
 #include <stdio.h>
 
+//
 void bubbleSort(void* array, size_t count, size_t size, int (*compare)(void*, void*)) {
     if (array == NULL || compare == NULL || count == 0 || size == 0) {
         return;
     }
     
     char* base = (char*)array;
-    
+//
     for (size_t i = 0; i < count - 1; i++) {
         int swapped = 0;
         
@@ -21,9 +22,10 @@ void bubbleSort(void* array, size_t count, size_t size, int (*compare)(void*, vo
                 swapped = 1;
             }
         }
-        
+    //    
         if (!swapped) {
             break;
         }
     }
 }
+//
