@@ -6,7 +6,7 @@ int compareInt(void *a, void *b) {
 }
 
 int compareChar(void *a, void *b) { 
-    return *(char *)a - *(char *)b; 
+    return *(char *)a - *(char *)b;
 }
 
 int compareDouble(void *a, void *b) { 

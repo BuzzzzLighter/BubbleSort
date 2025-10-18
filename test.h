@@ -1,6 +1,6 @@
 #pragma once 
 
-void runAllTest();
+void runAllTests();
 void swapTest1();
 void swapTest2();
 void swapTest3();
