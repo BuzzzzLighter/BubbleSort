@@ -81,7 +81,7 @@ void bubbleSortTest4(){
 
 void bubbleSortEmptyTest() {
     int arr[1];
-    bubbleSort(arr, 0, sizeof(int), compareInt); 
+    bubbleSort(arr, 0, sizeof(int), compareInt);
 }
 
 void bubbleSortSingleElementTest() {
